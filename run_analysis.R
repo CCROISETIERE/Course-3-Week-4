@@ -42,7 +42,8 @@ names(data) = gsub("^f", "Frequency", names(data))
 names(data) = gsub("-", "", names(data))
 names(data) = gsub("std\\(\\)", "StdDev", names(data))
 names(data) = gsub("mean\\(\\)", "Mean", names(data))
+data$activities = gsub("_","", data$activities)
 
 # Create a second, independent tidy data set with the average of each variable, activity and subject
 summary = ddply(data, .(subject, activities), numcolwise(mean))
-write.csv(summary, "tidy mean.csv")
+write.csv(summary, "tidy mean.csv", row.names=FALSE)
