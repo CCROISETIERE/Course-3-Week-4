@@ -19,12 +19,12 @@ output: html_document
 
 # Activities
 
-walking: walking during the test
-walkinguptairs: walking up a staircase during the test
-walkingudownstair: walking down a staircase during the test
-sitting: sitting during the test
-standing: standing during the test
-laying: laying down during the test
+1.walking: walking during the test
+2. walkinguptairs: walking up a staircase during the test
+3. walkingudownstair: walking down a staircase during the test
+4. sitting: sitting during the test
+5. standing: standing during the test
+6. laying: laying down during the test
 
 
 # Information related to the data
