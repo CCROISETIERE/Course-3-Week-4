@@ -6,12 +6,25 @@ output: html_document
 # Code Book
 
 # Information related to the script "run_analysis.R"
-
+ 
 1. The data coming from the multiples files were merged into a single data frame
 2. Only the variables relative to the mean or standard deviation was extracted in the final table
 3. The names of the variable were changed so that it is more descriptive
 4. The mean function was apply for each subject and activity
 5. The data is summarize in a tidy csv file
+
+# Variables
+
+"subject" "activities" "TimeBodyAccMeanX" "TimeBodyAccMeanY" "TimeBodyAccMeanZ" "TimeBodyAccStdDevX" "TimeBodyAccStdDevY" "TimeBodyAccStdDevZ" "TimeGravityAccMeanX" "TimeGravityAccMeanY" "TimeGravityAccMeanZ" "TimeGravityAccStdDevX" "TimeGravityAccStdDevY" "TimeGravityAccStdDevZ" "TimeBodyAccJerkMeanX" "TimeBodyAccJerkMeanY" "TimeBodyAccJerkMeanZ" "TimeBodyAccJerkStdDevX" "TimeBodyAccJerkStdDevY" "TimeBodyAccJerkStdDevZ" "TimeBodyGyroMeanX" "TimeBodyGyroMeanY" "TimeBodyGyroMeanZ" "TimeBodyGyroStdDevX" "TimeBodyGyroStdDevY" "TimeBodyGyroStdDevZ" "TimeBodyGyroJerkMeanX" "TimeBodyGyroJerkMeanY" "TimeBodyGyroJerkMeanZ" "TimeBodyGyroJerkStdDevX" "TimeBodyGyroJerkStdDevY" "TimeBodyGyroJerkStdDevZ" "TimeBodyAccMagMean" "TimeBodyAccMagStdDev" "TimeGravityAccMagMean" "TimeGravityAccMagStdDev" "TimeBodyAccJerkMagMean" "TimeBodyAccJerkMagStdDev" "TimeBodyGyroMagMean" "TimeBodyGyroMagStdDev" "TimeBodyGyroJerkMagMean" "TimeBodyGyroJerkMagStdDev" "FrequencyBodyAccMeanX" "FrequencyBodyAccMeanY" "FrequencyBodyAccMeanZ" "FrequencyBodyAccStdDevX" "FrequencyBodyAccStdDevY" "FrequencyBodyAccStdDevZ" "FrequencyBodyAccJerkMeanX" "FrequencyBodyAccJerkMeanY" "FrequencyBodyAccJerkMeanZ" "FrequencyBodyAccJerkStdDevX" "FrequencyBodyAccJerkStdDevY" "FrequencyBodyAccJerkStdDevZ" "FrequencyBodyGyroMeanX" "FrequencyBodyGyroMeanY" "FrequencyBodyGyroMeanZ" "FrequencyBodyGyroStdDevX" "FrequencyBodyGyroStdDevY" "FrequencyBodyGyroStdDevZ" "FrequencyBodyAccMagMean" "FrequencyBodyAccMagStdDev" "FrequencyBodyBodyAccJerkMagMean" "FrequencyBodyBodyAccJerkMagStdDev" "FrequencyBodyBodyGyroMagMean" "FrequencyBodyBodyGyroMagStdDev" "FrequencyBodyBodyGyroJerkMagMean" "FrequencyBodyBodyGyroJerkMagStdDev"
+
+# Activities
+
+walking: walking during the test
+walkinguptairs: walking up a staircase during the test
+walkingudownstair: walking down a staircase during the test
+sitting: sitting during the test
+standing: standing during the test
+laying: laying down during the test
 
 
 # Information related to the data
