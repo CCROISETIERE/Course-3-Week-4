@@ -46,4 +46,4 @@ data$activities = gsub("_","", data$activities)
 
 # Create a second, independent tidy data set with the average of each variable, activity and subject
 summary = ddply(data, .(subject, activities), numcolwise(mean))
-write.csv(summary, "tidy mean.csv", row.names=FALSE)
+write.table(summary, "tidy mean.txt", row.names=FALSE)
